@@ -89,7 +89,7 @@ const Main = () => {
                                             </div>
                                         </div>
                                         <div className="flex justify-center items center border-t-2 ">
-                                            <button className=" bg-green-600 px-3 mt-6 lg:mt-4 py-1 rounded-sm font-bold" > SAIBA MAIS</button>
+                                            <button className=" bg-green-700 px-3 mt-6 lg:mt-4 py-1 rounded-sm font-bold" > SAIBA MAIS</button>
                                         </div>
                                     </article>
                                 </div>
