@@ -41,7 +41,7 @@ const Banner = () => {
               data-aos-delay="500"
               target='_blank'
               href={`https://wa.me/5522974006116?text=Olá vim pelo site e gostaria de mais informações sobre os Cursos`}
-              className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
+              className="bg-green-600 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
             >
 
               Contato via WhatsApp

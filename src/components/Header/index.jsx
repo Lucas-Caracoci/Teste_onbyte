@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import Image from 'next/image';
 import logo from '../../../public/image.png'
 import { useState, useEffect } from 'react';
@@ -23,7 +24,7 @@ const Header = () => {
 
 
     return (
-        <header className={`fixed top-0  p-9 w-full z-10 flex items-center justify-center transition-all duration-300 ease-in-out ${scrollClass}`}>
+        <header className={`fixed top-0  p-6 w-full z-10 flex items-center justify-center transition-all duration-300 ease-in-out ${scrollClass}`}>
             <div className=' w-full '>
                 <Image
                     src={logo}
@@ -45,19 +46,17 @@ const Header = () => {
                  <MenuButton onClick={() => setIsOpen(prev => !prev)} isOpen={isOpen} />
 
                 <ul className='flex flex-col  z-30 mt-10 '>
-                    <a href="#inicio" onClick={() => setIsOpen(prev => !prev)} className='font-bold text-white transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Inicio</li></a>
-                    <a href="#cursos" onClick={() => setIsOpen(prev => !prev)} className='font-bold text-white transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Cursos</li></a>
+                    <Link href="/" onClick={() => setIsOpen(prev => !prev)} className='font-bold text-white transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Inicio</li></Link>
+                    <Link href='/cursos' onClick={() => setIsOpen(prev => !prev)} className='font-bold text-white transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Cursos</li></Link>
                     <a href="#sobre" onClick={() => setIsOpen(prev => !prev)} className='font-bold text-white transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Sobre</li></a>
 
                 </ul>
             </div>
             <div className=' hidden w-full  items-center justify-around md:flex'>
                 <ul className='flex gap-20'>
-                    <a href="#inicio" className='font-bold text-white'><li>Inicio</li></a>
-                    <a href="#cursos" className='font-bold text-white'><li>Cursos</li></a>
+                    <Link href="/" className='font-bold text-white'><li>Inicio</li></Link>
+                    <Link href="/cursos" className='font-bold text-white'><li>Cursos</li></Link>
                     <a href="#sobre" className='font-bold text-white'><li>Sobre</li></a>
-
-
 
                 </ul>
             </div>
