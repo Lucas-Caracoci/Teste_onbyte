@@ -25,7 +25,7 @@ const MenuButton = ({isOpen, onClick}) => {
                 className="h-10 w-10"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor">
+                stroke="darkred">
                 <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
