@@ -11,8 +11,9 @@ export default function Home() {
       <Header/>
       <Banner/>
       <Main/>
-      <Faixa/>
+      
       <About/>
+      <Faixa/>
      
     </div>
   );

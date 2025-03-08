@@ -1,6 +1,6 @@
 'use client'
 
-const MenuButton = ({isOpen, onClick}) => {
+const MenuButton = ({isOpen, onClick ,color}) => {
     return (
         <button
         className=" 
@@ -25,7 +25,7 @@ const MenuButton = ({isOpen, onClick}) => {
                 className="h-10 w-10"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="darkred">
+                stroke={color}>
                 <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
