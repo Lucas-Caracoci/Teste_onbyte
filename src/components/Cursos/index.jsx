@@ -1,4 +1,5 @@
 'use client'
+
 import { cursos } from '@/db/cursos';
 import Link from 'next/link'
 import Autoplay from "embla-carousel-autoplay";
@@ -37,8 +38,10 @@ const Main = () => {
                 </div>
                         
             </div>
-            <Link href={'/cursos'}> Ver todos os cursos</Link>
+            <Link href={'/cursos'} className='text-xl font-bold w-fit  pb-2  text-blue-950 border-b-2 border-red-700'> Ver todos os cursos</Link>
 
+
+                      
         </div>
     );
 }
