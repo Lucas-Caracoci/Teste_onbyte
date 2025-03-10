@@ -6,7 +6,7 @@ const CardCurso = ({curso}) => {
         <article className="select-none  border-4 border-red-700 bg-blue-950 text-white rounded-2xl p-4 space-y-6 lg:space-y-4 h-full w-full flex justify-evenly flex-col lg:p-6" >
             <h3 className="text-center text-xl lg:text-md font-bold ">{curso.title}</h3>
             <div className="flex gap-2 items-center  flex-col ">
-                <img className='w-48 sm:w-32 rounded-xl' src={curso.img} alt="" />
+                <img className='w-48  rounded-xl' src={curso.img} alt="" />
                 <div className="flex ">
                     <p className="text-justify mt-3 lg:mt-0 text-md lg:text-sm ">{curso.subjects}</p>
                 </div>

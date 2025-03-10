@@ -1,4 +1,5 @@
 
+import { MessageCircle } from 'lucide-react';
 import logo from '../../../public/thumb.png'
 
 import Image from 'next/image';
@@ -43,7 +44,7 @@ const Banner = () => {
               href={`https://wa.me/5522974006116?text=Olá vim pelo site e gostaria de mais informações sobre os Cursos`}
               className="bg-green-600 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
             >
-
+              <MessageCircle />
               Contato via WhatsApp
             </a>
 

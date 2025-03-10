@@ -17,7 +17,7 @@ const Faixa = () => {
       align: 'start',
       slidesToScroll: 1,
     },
-    [Autoplay({ delay: 5000, stopOnInteraction: false })]
+    [Autoplay({ delay: 8000, stopOnInteraction: false })]
   );
 
   return (
