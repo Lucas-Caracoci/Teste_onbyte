@@ -3,12 +3,12 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
     return (
-        <div className="  text-white mt-40 flex flex-col items-center py-5 bg-blue-950 rounded-t-3xl" >
-            <h1 className="text-4xl font-bold  text-center pb-2  text-white border-b-2 border-red-700">Contatos</h1>
+        <div className="  text-white mt-40 flex flex-col items-center py-5 bg-[radial-gradient(circle_at_100%_200%,_#5b9dff_0%,_theme(colors.blue.950)_80%)] rounded-t-3xl " >
+            <h1 className="text-4xl font-bold  text-center pb-2 border-b-2 border-red-700">Contatos</h1>
             <div className="container flex flex-col h-full items-center p-10 xl:px-0 gap-10" >
-                <div className="w-full flex flex-col items-center  justify-center gap-10">
-                    <div className="w-full h-full flex flex-col items-center justify-around gap-5">
-                   
+                <div className="w-full flex flex-col lg:flex-row items-center  justify-center gap-10">
+                    <div className="w-full h-full flex flex-col  items-center justify-around gap-6">
+                        <h4 className="font-bold text-lg border-b-2 border-red-700 hidden  lg:flex">Redes Sociais</h4>
                         <ul className=" flex gap-6 items-center justify-around">
                             <li >
                                 <svg xmlns="http://www.w3.org/2000/svg" height="42" width="42" viewBox="0 0 448 512"><path fill="#ffffff" d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z" /></svg>
@@ -42,3 +42,7 @@ const Footer = () => {
 }
 
 export default Footer;
+
+
+
+// bg-[radial-gradient(circle_at_100%_150%,_#5b9dff_0%,_#020c1b_80%)]

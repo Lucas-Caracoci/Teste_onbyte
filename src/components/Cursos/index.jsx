@@ -22,7 +22,7 @@ const Main = () => {
         [Autoplay({ delay: 5000, stopOnInteraction: false })] 
     );
     return (
-        <div  className="container mx-auto px-4 flex flex-col  text-blue-950 md:text-xl ">
+        <div  className="container mx-auto px-4 flex flex-col  text-main md:text-xl  ">
             <h1 className='text-4xl font-bold m-auto pb-2 my-14 border-b-2 border-red-700'>NOSSOS CURSOS</h1>
             <p className='text-center'>A On Byte Cabo frio oferece mais de 70 cursos para que você possa estar pronto quando a oportunidade aparecer.</p>
             <div className="relative">
@@ -38,7 +38,7 @@ const Main = () => {
                 </div>
                         
             </div>
-            <Link href={'/cursos'} className='text-xl font-bold w-fit  pb-2  text-blue-950 border-b-2 border-red-700'> Ver todos os cursos</Link>
+            <Link href={'/cursos'} className='text-xl font-bold w-fit  pb-2  border-b-2 border-red-700'> Ver todos os cursos</Link>
 
 
                       

@@ -15,7 +15,7 @@ const Header = () => {
         const handleScroll = () => {
             if (window.scrollY > 50) {
                 setColor('#fff')
-                setScrollClass("h-20  bg-blue-950 shadow-xl text-white  ");
+                setScrollClass("h-20 bg-[radial-gradient(circle_at_200%_100%,_#5b9dff_0%,_theme(colors.blue.950)_80%)] shadow-xl text-white  ");
             } else {
                 setScrollClass("h-12  text-blue-700 ");
                 setColor('rgb(29 78 216)')
@@ -61,10 +61,10 @@ const Header = () => {
                     }`}>
                     <MenuButton onClick={() => setIsOpen(prev => !prev)} isOpen={isOpen} color={color} />
 
-                    <ul className='flex flex-col  z-30 mt-10 '>
-                        <Link href="/" onClick={() => setIsOpen(prev => !prev)} className='font-bold text-white transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Inicio</li></Link>
-                        <Link href='/cursos' onClick={() => setIsOpen(prev => !prev)} className='font-bold text-white transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Cursos</li></Link>
-                        <a href="#sobre" onClick={() => setIsOpen(prev => !prev)} className='font-bold text-white transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Sobre</li></a>
+                    <ul className='flex flex-col  z-30 mt-10 text-white'>
+                        <Link href="/" onClick={() => setIsOpen(prev => !prev)} className='font-bold  transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Inicio</li></Link>
+                        <Link href='/cursos' onClick={() => setIsOpen(prev => !prev)} className='font-bold  transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Cursos</li></Link>
+                        <a href="#sobre" onClick={() => setIsOpen(prev => !prev)} className='font-bold  transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Sobre</li></a>
 
                     </ul>
                 </div>

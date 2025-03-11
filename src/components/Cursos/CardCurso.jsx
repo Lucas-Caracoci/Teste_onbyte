@@ -3,7 +3,7 @@
 const CardCurso = ({curso}) => {
     return (
         <div  className="flex-[0_0_100%]  min-w-0 md:flex-[0_0_calc(100%/2)] lg:flex-[0_0_calc(100%/3)] px-3  items-center justify-between" >
-        <article className="select-none  border-4 border-red-700 bg-blue-950 text-white rounded-2xl p-4 space-y-6 lg:space-y-4 h-full w-full flex justify-evenly flex-col lg:p-6" >
+        <article className="select-none  border-4 border-red-700 bg-main text-white rounded-2xl p-4 space-y-6 lg:space-y-4 h-full w-full flex justify-evenly flex-col lg:p-6" >
             <h3 className="text-center text-xl lg:text-md font-bold ">{curso.title}</h3>
             <div className="flex gap-2 items-center  flex-col ">
                 <img className='w-48  rounded-xl' src={curso.img} alt="" />

@@ -60,7 +60,9 @@
 
     --chart-5: 27 87% 67%;
 
-    --radius: 0.5rem
+    --radius: 0.5rem;
+
+    --main-color: theme(colors.blue.950);
   }
   .dark {
 
@@ -113,14 +115,13 @@
     --chart-5: 340 75% 55%
   }
 }
-
-
-
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
+@layer utilities {
+  .text-main {
+    color: var(--main-color);
   }
-  body {
-    @apply bg-background text-foreground;
+  .bg-main {
+    background-color: var(--main-color);
   }
 }
+
+
