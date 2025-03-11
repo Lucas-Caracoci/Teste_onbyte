@@ -63,6 +63,7 @@
     --radius: 0.5rem;
 
     --main-color: theme(colors.blue.950);
+    --second-color :theme(colors.red.700);
   }
   .dark {
 
@@ -121,6 +122,12 @@
   }
   .bg-main {
     background-color: var(--main-color);
+  }
+  .text-second {
+    color: var(--second-color);
+  }
+  .bg-second {
+    background-color: var(--second-color);
   }
 }
 

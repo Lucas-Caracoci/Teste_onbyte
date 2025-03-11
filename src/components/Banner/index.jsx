@@ -3,6 +3,7 @@ import { MessageCircle } from 'lucide-react';
 import logo from '../../../public/thumb.png'
 
 import Image from 'next/image';
+import Countdown from './contador';
 
 
 const Banner = () => {
@@ -33,7 +34,7 @@ const Banner = () => {
             >
               VOCÊ ESCOLHE O DIA E A HORA QUE QUER ESTUDAR            </h1>
             <p className=" lg:text-lg" data-aos="fade-right">
-             Texto Motivacional 
+             O Sucesso é uma questão de decisão
             </p>
 
 
@@ -49,9 +50,7 @@ const Banner = () => {
             </a>
 
             <div className="mt-8">
-              <p className="text-sm mb-4">
-                <b className="bg-black px-2 py-1 rounded-md">50%</b> de desconto na primeira compra.
-              </p>
+              <Countdown/>
             </div>
 
           </div>

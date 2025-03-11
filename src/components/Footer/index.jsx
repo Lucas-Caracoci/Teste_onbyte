@@ -3,7 +3,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 const Footer = () => {
     return (
-        <div className="  text-white mt-40 flex flex-col items-center py-5 bg-[radial-gradient(circle_at_100%_200%,_#5b9dff_0%,_theme(colors.blue.950)_80%)] rounded-t-3xl " >
+        <div id="contato" className="  text-white mt-40 flex flex-col items-center py-5 bg-[radial-gradient(circle_at_100%_200%,_#5b9dff_0%,_theme(colors.blue.950)_80%)] rounded-t-3xl " >
             <h1 className="text-4xl font-bold  text-center pb-2 border-b-2 border-red-700">Contatos</h1>
             <div className="container flex flex-col h-full items-center p-10 xl:px-0 gap-10" >
                 <div className="w-full flex flex-col lg:flex-row items-center  justify-center gap-10">

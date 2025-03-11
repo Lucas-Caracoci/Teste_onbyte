@@ -5,17 +5,21 @@ import Faixa from "@/components/faixa";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import About from "@/components/Sobre";
+import { Unidade } from "@/components/unidade";
 
 export default function Home() {
   return (
     <div >
       <Header/>
       <Banner/>
+      
       <Main/>
-      <About/>
       <Faixa/>
+      <About/>
+      
+      <Unidade/>
       <Footer/>
-    
+     
     </div>
   );
 }
