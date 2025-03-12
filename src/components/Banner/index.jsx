@@ -18,6 +18,7 @@ const Banner = () => {
           fill
           sizes='100vw'
           priority
+          data-aos="fade-down"
           className='object-cover opacity-60 lg:hidden'
         />
         <div className='absolute inset-0 bg-black opacity-60 lg:hidden'></div>
@@ -60,7 +61,7 @@ const Banner = () => {
               src={logo}
               alt='Logo On Byte'
               className='object-contain w-full'
-              
+              data-aos="fade-left"
               sizes="(max-width:768px)"
               quality={100}
               priority

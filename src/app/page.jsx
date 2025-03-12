@@ -9,7 +9,7 @@ import { Unidade } from "@/components/unidade";
 
 export default function Home() {
   return (
-    <div >
+    <div className="overflow-hidden" >
       <Header/>
       <Banner/>
       

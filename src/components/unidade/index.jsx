@@ -37,7 +37,7 @@ export function Unidade() {
           </div>
 
           <div className="space-y-6 mt-10" data-aos="fade-up-left" data-aos-delay="300">
-            <h2 className="text-4xl font-bold">SOBRE</h2>
+            <h2 className="text-4xl font-bold">ON BYTE Cabo Frio</h2>
 
             <p>
             A On Byte Cabo Frio é uma escola de cursos profissionalizantes e de informática, comprometida em transformar vidas por meio da educação. Com uma metodologia inovadora e instrutores qualificados, oferecemos mais de 70 cursos para preparar nossos alunos para o mercado de trabalho.
@@ -45,26 +45,27 @@ export function Unidade() {
             </p>
 
             <ul className="space-y-4 ">
-              <li className="flex items-center gap-2">
+              <li data-aos="fade-right" data-aos-delay="400" className="flex items-center gap-2">
                 <Check className="text-second" />
                 Aberto desde 2014.
               </li>
-              <li className="flex items-center gap-2">
+              <li  data-aos="fade-right" data-aos-delay="500" className="flex items-center gap-2">
                 <Check className="text-second" />
                 Equipe com profissionais qualificados.
               </li>
-              <li className="flex items-center gap-2">
+              <li  data-aos="fade-right" data-aos-delay="600" className="flex items-center gap-2">
                 <Check className="text-second" />
                 Qualidade é nossa prioridade.
               </li>
-              <li className="flex items-center gap-2">
+              <li  data-aos="fade-right" data-aos-delay="700" className="flex items-center gap-2">
                 <Check className="text-second" />
-                Qualidade é nossa prioridade.
+                Mais de <span className="text-second font-bold">1000</span> alunos formados!
               </li>
             </ul>
 
             <div className="flex gap-2">
               <a
+                data-aos="fade-right" data-aos-delay="300"
                 target='_blank'
                 href={`https://wa.me/5522974006116?text=Olá vim pelo site e gostaria de mais informações sobre os Cursos`}
                 className="bg-second text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"
@@ -74,11 +75,12 @@ export function Unidade() {
               </a>
 
               <a
+                data-aos="fade-left" data-aos-delay="300"
                 href="#contato"
                 className=" flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md"
               >
                 <MapPin className="w-5 h-5 text-second" />
-                Endereço da loja
+                Nosso Endereço
               </a>
             </div>
 

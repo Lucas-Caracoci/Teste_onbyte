@@ -21,7 +21,7 @@ const Countdown = () => {
   };
 
   return (
-    <p className="text-sm mb-4 ">
+    <p className="text-sm mb-4  " data-aos="fade-right">
       <b className="bg-[#000000aa] px-2 py-1 rounded-md border-4 border-green-500 text-green-500">{formatTime(timeLeft)}</b> para aproveitar 50% de desconto na primeira compra!
     </p>
   );

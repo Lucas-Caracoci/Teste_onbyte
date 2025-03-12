@@ -21,7 +21,7 @@ const Faixa = () => {
   );
 
   return (
-    <div className="mt-10 overflow-hidden" ref={emblaRef}>
+    <div ref={emblaRef}>
       <div className="flex" >
         {images.map((image, index) => (
           <div key={index} className="flex-shrink-0 w-full">

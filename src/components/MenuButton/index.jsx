@@ -3,6 +3,7 @@
 const MenuButton = ({isOpen, onClick ,color}) => {
     return (
         <button
+        data-aos="fade-down"  data-aos-delay="400"
         className=" 
            text-white font-bold py-2 px-4 rounded mt-2 md:hidden"
            onClick={onClick}
