@@ -49,15 +49,13 @@ const Header = () => {
                 </div>
 
 
-                <div className="ml-auto lg:hidden">
-
-                </div>
+                
                 <MenuButton onClick={() => setIsOpen(prev => !prev)} isOpen={isOpen} color={color} />
 
                 <div className={`bg-blue-950 text-white 
         fixed h-screen transition-all 
         duration-300 z-10 right-0 top-0
-        ${isOpen ? 'w-44' : 'w-0 overflow-hidden lg:hidden'
+        ${isOpen ? 'w-44' : 'w-0 overflow-hidden '
                     }`}>
                     <MenuButton   onClick={() => setIsOpen(prev => !prev)} isOpen={isOpen} color={color} />
 
@@ -69,7 +67,7 @@ const Header = () => {
 
                     </ul>
                 </div>
-                <div className=' text-white hidden w-full  items-center justify-around md:flex'>
+                <div className=' text-white hidden w-full  items-center justify-around lg:flex'>
                     <ul className='flex gap-20'>
                         <Link  data-aos="fade-down"  data-aos-delay="500" href="/" className='font-bold transition-all duration-300 ease-in-out border-b-2 border-b-transparent hover:scale-110 hover:border-b-red-500'><li>Inicio</li></Link>
                         <a  data-aos="fade-down"  data-aos-delay="600" href="/#sobre" className='font-bold transition-all duration-300 ease-in-out border-b-2 border-b-transparent hover:scale-110 hover:border-b-red-500'><li>Sobre</li></a>

@@ -1,5 +1,6 @@
 import { Mail, MapPin, Phone } from "lucide-react";
 import Link from 'next/link'
+import Form from "./form";
 
 const Footer = () => {
     return (
@@ -26,20 +27,26 @@ const Footer = () => {
                             <Link  data-aos="fade-left" data-aos-delay="900" target="_blank" href={'https://maps.app.goo.gl/cpgBr1kS2p9Dp9uy9'}><li className="flex gap-2 items-center"><MapPin />Av. Teixeira e Souza, 49 – Sala 101 à 103</li></Link>
                         </ul>
                     </div>
+                    
                 </div>
+                <div className="w-full flex flex-col-reverse lg:flex-row items-center bg-slate-50 justify-around container gap-20">
 
-
-                <iframe className="rounded-lg w-full h-80 "
+                <Form/>  
+                <iframe className="rounded-lg w-full max-w-md h-[28rem]   "
                     src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3675.9086416008154!2d-42.019197!3d-22.879833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDUyJzQ3LjQiUyA0MsKwMDEnMDkuMSJX!5e0!3m2!1spt-BR!2sbr!4v1741620591136!5m2!1spt-BR!2sbr"
-                    allowFullScreen={true}
+                   
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                     data-aos="fade-up" data-aos-delay="300"
                     >
                         
                 </iframe>
-            </div>
+                </div>
 
+               
+                                                                          
+            </div>
+            
         </div>
     );
 }

@@ -6,7 +6,7 @@ import { cursos } from "@/db/cursos";
 export default function Cursos() {
     return (
 
-        <div>
+        <div className="overflow-hidden">
             <Faixa/>
             <Header />
             <div className="flex items-center flex-col  " >
