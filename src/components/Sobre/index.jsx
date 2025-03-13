@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import dif from '../../../public/DIFERENCIAIS.JPG'
+
 const About = () => {
     const diferenciais = [
         {
