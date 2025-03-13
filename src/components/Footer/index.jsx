@@ -29,7 +29,7 @@ const Footer = () => {
                     </div>
                     
                 </div>
-                <div className="w-full flex flex-col-reverse lg:flex-row items-center bg-slate-50 justify-around container gap-20">
+                <div className="w-full flex flex-col-reverse lg:flex-row items-center justify-around container gap-20">
 
                 <Form/>  
                 <iframe className="rounded-lg w-full max-w-md h-[28rem]   "
