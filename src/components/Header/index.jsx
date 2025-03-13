@@ -60,7 +60,7 @@ const Header = () => {
                     <MenuButton   onClick={() => setIsOpen(prev => !prev)} isOpen={isOpen} color={color} />
 
                     <ul className='flex flex-col  z-30 mt-10 text-white'>
-                        <Link href="/" onClick={() => setIsOpen(prev => !prev)} className='font-bold  transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Inicio</li></Link>
+                        <Link href="#inicio" onClick={() => setIsOpen(prev => !prev)} className='font-bold  transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Inicio</li></Link>
                         <a href="#sobre" onClick={() => setIsOpen(prev => !prev)} className='font-bold  transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Sobre</li></a>
                         <Link href='/cursos' onClick={() => setIsOpen(prev => !prev)} className='font-bold  transition-all duration-300 ease-in-out hover:bg-blue-700 py-5 text-center text-xl border-y-4 border-blue-950'><li>Todos os Cursos</li></Link>
                         
@@ -69,7 +69,7 @@ const Header = () => {
                 </div>
                 <div className=' text-white hidden w-full  items-center justify-around lg:flex'>
                     <ul className='flex gap-20'>
-                        <Link  data-aos="fade-down"  data-aos-delay="500" href="/" className='font-bold transition-all duration-300 ease-in-out border-b-2 border-b-transparent hover:scale-110 hover:border-b-red-500'><li>Inicio</li></Link>
+                        <Link  data-aos="fade-down"  data-aos-delay="500" href="#inicio" className='font-bold transition-all duration-300 ease-in-out border-b-2 border-b-transparent hover:scale-110 hover:border-b-red-500'><li>Inicio</li></Link>
                         <a  data-aos="fade-down"  data-aos-delay="600" href="/#sobre" className='font-bold transition-all duration-300 ease-in-out border-b-2 border-b-transparent hover:scale-110 hover:border-b-red-500'><li>Sobre</li></a>
                         <Link  data-aos="fade-down"  data-aos-delay="700" href="/cursos" className='font-bold transition-all duration-300 ease-in-out border-b-2 border-b-transparent hover:scale-110 hover:border-b-red-500'><li>Todos os Cursos</li></Link>
 
